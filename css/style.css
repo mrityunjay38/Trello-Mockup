@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font: lighter 2rem/2rem Helvetica;
+    color: grey;
+}
+
+
+section {
+    width: 100%;
+    height: auto;
+    background: #e9f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-base {
+    width: 50%;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 2rem;
+    /* color: aqua; */
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;
+    font: lighter 1rem/1rem Helvetica;
+}
+
+.update-checklist {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    font: lighter 1em/1em Helvetica;
+}
