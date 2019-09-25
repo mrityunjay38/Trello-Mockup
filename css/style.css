@@ -48,3 +48,37 @@ form input[type="text"] {
     border-radius: 5px;
     font: lighter 1em/1em Helvetica;
 }
+
+li {
+    cursor: pointer;
+    position: relative;
+    padding: 1rem;
+    background: #eee;
+    font-size: 2rem;
+    transition: 0.2s;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    float: left;
+    width: 2em;
+    height: 2em;
+    background: lightblue;
+    font: bold 1em/2em Helvetica;
+}
+
+.cross {
+    float: right;
+    width: 2em;
+    height: 2em;
+    font: bold 1em/2em Helvetica;
+}
+
+.strike {
+    text-decoration: line-through;
+}
